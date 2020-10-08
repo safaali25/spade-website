@@ -1,0 +1,93 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron{
+    color: rgb(31, 57, 75);
+}
+
+.navbar-inverse{
+    background: rgb(31, 57, 75);
+}
+
+a{
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.spade{
+    background-size: cover;
+    background-position: center;
+    animation: slider 5s infinite linear;
+}
+#content {
+    text-shadow: 0 0 20px black;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+@keyframes slider{
+
+    0%{ background-image: url("https://i.ytimg.com/vi/2pp5v91HVjI/maxresdefault.jpg") }
+    40%{background-image: url("https://yt3.ggpht.com/a/AATXAJxGYcg4coJQ9yQoPiQqO00qjqU3Vcs1CBlH96o7=s900-c-k-c0xffffffff-no-rj-mo")}
+    75%{background-image: url("https://i.ytimg.com/vi/bnCBpPJ-9Qs/maxresdefault.jpg")}
+}
+
+h1 {
+    font-family: 'Patua One', cursive;
+    font-weight: 700;
+    font-size: 5em; 
+}
+
+.family p{
+    color: white;
+}
+
+hr{
+    width: 390px;
+    margin-left: 0;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgb(0,0,0,0.2)
+}
+
+.family {
+    background: url(https://raw.githubusercontent.com/spadeems/web/master/img/slider/1.jpg);
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+    height: 600px;
+    padding: 50px;
+}
+
+.family h1{
+    color: white;
+    text-shadow: black;
+    
+}
+
+.services {
+    text-align: center;
+}
+
+.partners {
+    text-align: center;
+}
+
+.internship{
+    text-align: center;
+}
+
+.internship p{
+    color: rgb(4, 20, 29);
+}
+
+.hov {
+    transition: transform .1s;
+}
+
+.hov:hover {
+    transform: scale(1.2);
+}
